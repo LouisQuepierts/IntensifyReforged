@@ -1,0 +1,102 @@
+# Styles
+# If you turn this off, intensifiers will not show the info about chances.
+# You need to add it on lore by yourself.
+# Caution, when you change ths info, the existent intensifier item might cannot work.
+# Please set it before somebody got the item.
+intensifier-info-vanilla: true
+# If you turn this on, when intensified an item, lore will be like 'lore-IntensificationTimes'
+# If not, it will like [◆◆◆◆◆◇◇◇◇◇], or you can customize it.
+intensify-info-vanilla: true
+
+lang: en_us
+
+recipes:
+  # ItemID
+  #   chance: <chance> | <amount> (decrease pre level)
+  #   break: <chance> | <amount> (increase pre level)
+  #   downgrade: <chance> | <amount> (increase pre level)
+  #   enchantment: <TYPE> | <level> (increase pre level)
+  #   time: <time>
+  WOODEN_SWORD:
+    chance: 100 | 5
+    break: 0 | 10
+    downgrade: -100 | 20
+    enchantment: sharpness | 1
+    time: 100
+  DIAMOND_SWORD:
+    chance: 100 | 10
+    break: -100 | 20
+    downgrade: -100 | 20
+    enchantment: sharpness | 1
+    time: 400
+  DIAMOND_PICKAXE:
+    chance: 100 | 10
+    break: -100 | 20
+    downgrade: -100 | 20
+    enchantment: efficiency | 1
+    time: 400
+  COOKED_COD:
+    chance: 100 | 10
+    break: -100 | 40
+    downgrade: -100 | 40
+    enchantment: knockback | 1
+    time: 1600
+
+intensifier:
+  # name:
+  #   chance: <amount> (success chance)
+  #   break: <amount> (break chance when fail)
+  #   downgrade: <amount> (downgrade chance when fail)
+  #   material: MATERIAL
+  #   display-name: "name"
+  #   lore:
+  #     - "blablablah"
+  #     - "blablablablah"
+  normal:
+    chance: 0
+    break: 0
+    downgrade: 0
+    material: EMERALD
+    display-name: "&eNormal Reinforce Stone"
+    lore:
+      - "&7Intensifier"
+  special:
+    chance: 20
+    break: -50
+    downgrade: -50
+    material: EMERALD
+    display-name: "&eSpecial Reinforce Stone"
+    lore:
+      - "&7Intensifier"
+  advanced:
+    chance: 40
+    break: 0
+    downgrade: 0
+    material: EMERALD
+    displace-name: "&5Advanced Reinforce Stone"
+    lore:
+      - "&7Intensifier"
+  excellent:
+    chance: 80
+    break: -20
+    downgrade: -20
+    material: EMERALD
+    displace-name: "&5Excellent Reinforce Stone"
+    lore:
+      - "&7Intensifier"
+  gambler:
+    chance: 50
+    break: -50
+    downgrade: -50
+    material: EMERALD
+    displace-name: "&5Advanced Reinforce Stone"
+    lore:
+      - "&6All the half"
+  safety:
+    chance: 20
+    break: -100
+    downgrade: -100
+    material: EMERALD
+    displace-name: "&5Safety Reinforce Stone"
+    lore:
+     - "&bNever gonna make you cry"

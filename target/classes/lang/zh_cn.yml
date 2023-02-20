@@ -1,0 +1,36 @@
+lore-WhenIntensifyItem: "&7在强化时:"
+lore-AdditionalChance: "成功率"
+lore-BreakChance: "损毁率"
+lore-DowngradeChance: "降级率"
+
+lore-IntensificationTimes: "&a强化等级 %level%"
+
+lore-PositiveColor: "&9"
+lore-NegativeColor: "&c"
+
+lore-tag: "&7类型: "
+
+lore-custom-IntensificationLevel-begin: "&b&l["
+lore-custom-IntensificationLevel-end: "]"
+lore-custom-IntensificationLevel-true: "◆"
+lore-custom-IntensificationLevel-false: "◇"
+
+message-IntensifySucceed: "&a您的装备已强化至 %level% 级!!"
+message-IntensifyFailed: "&c哎呀，强化失败了...."
+message-IntensifyDowngraded: "&c偶!不!您的装备因为强化失败而降级至 %level% 级..."
+message-IntensifyBroken: "&c一个坏消息,您的装备因强化失败而损毁..."
+
+message-InvalidAction: "&c您不能用强化石干这件事!!"
+message-Beacon: "嗯...您貌似想用强化石强化您的信标?"
+
+broadcast-IntensifySucceedCongratulate: "&a恭喜 %player% 将装备强化至 %level% 级!!"
+broadcast-IntensifyBroken: "&c让我们为 %player% 的物品默哀0.1秒, 希望下次会成功"
+
+command-PlayerAbsent: "&c%player% 不是一个存在或在线的玩家"
+command-IllegalType: "&c%type% 不是可用类型"
+command-IngameOnly: "&c您不能在控制台执行该指令!"
+command-MaxIntensificationTimes: "&c该物品无法强化!"
+
+command-usage-give: "&a/intensify give <Player> <Type> [Amount] | 给某人指定类型和数量的强化剂"
+command-usage-execute: "&a/intensify execute <chance> <break_chance> <downgrade_chance> | 强化您手持物品"
+command-usage-reload: "&a/intensify reload | 重载插件配置"

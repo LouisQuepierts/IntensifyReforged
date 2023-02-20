@@ -1,0 +1,13 @@
+name: IntensifyReforged
+version: '${project.version}'
+main: net.quepierts.intensify.IntensifyReforgedPlugin
+api-version: 1.16
+authors: [ Louis_Quepierts ]
+description: non
+commands:
+  intensify:
+    permission: intensify.admin
+
+permissions:
+  intensify.admin:
+    default: op

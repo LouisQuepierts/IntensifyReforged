@@ -1,0 +1,65 @@
+# Styles
+# If you turn this off, intensifiers will not show the info about chances.
+# You need to add it on lore by yourself.
+# Caution, when you change ths info, the existent intensifier item might cannot work.
+# Please set it before somebody got the item.
+intensifier-info-vanilla: true
+# If you turn this on, when intensified an item, lore will be like 'lore-IntensificationTimes'
+# If not, it will like [◆◆◆◆◆◇◇◇◇◇], or you can customize it.
+intensify-info-vanilla: true
+
+lang: en_us
+
+recipes:
+  # ItemID
+  #   chance: <chance> | <amount> (decrease pre level)
+  #   break: <chance> | <amount> (increase pre level)
+  #   downgrade: <chance> | <amount> (increase pre level)
+  #   enchantment: <TYPE> | <level> (increase pre level)
+  #   time: <time>
+  DIAMOND_SWORD:
+    chance: 100 | 10
+    break: -100 | 20
+    downgrade: -100 | 20
+    enchantment: SHARPNESS | 1
+    time: 400
+  IRON_SWORD:
+    chance: 100 | 10
+    break: -100 | 20
+    downgrade: -100 | 20
+    enchantment: SHARPNESS | 1
+    time: 200
+
+intensifier:
+  # name:
+  #   chance: <amount> (success chance)
+  #   break: <amount> (break chance when fail)
+  #   downgrade: <amount> (downgrade chance when fail)
+  #   material: MATERIAL
+  #   display-name: "name"
+  #   lore:
+  #     - "a"
+  #     - "b"
+  normal:
+    chance: 0
+    break: 0
+    downgrade: 0
+    material: EMERALD
+    display-name: "&a&lNormal Reinforce Stone"
+    lore:
+      - "&a[Function]"
+      - "&5Upgrade tools or equipments."
+      - "&a[Usage]"
+      - "&cPut it into the furnace to burn the tools."
+  lucky:
+    chance: 20
+    break: -20
+    downgrade: -20
+    material: EMERALD
+    display-name: "&5&lLucky Reinforce Stone"
+    lore:
+      - "&a[Function]"
+      - "&5Upgrade tools or equipments."
+      - "&6Increased success rate by 20%."
+      - "&a[Usage]"
+      - "&cPut it into the furnace to burn the tools."

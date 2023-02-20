@@ -1,0 +1,16 @@
+net\quepierts\intensify\IntensifyReforgedPlugin.class
+net\quepierts\intensify\utils\MessageUtils.class
+net\quepierts\intensify\command\SubCommand.class
+net\quepierts\intensify\command\CommandReload.class
+net\quepierts\intensify\PluginData.class
+net\quepierts\intensify\utils\ListUtils.class
+net\quepierts\intensify\object\IntensifierData.class
+net\quepierts\intensify\object\IntensifyData.class
+net\quepierts\intensify\listener\FurnaceListener.class
+net\quepierts\intensify\utils\StringUtils.class
+net\quepierts\intensify\listener\InventoryListener.class
+net\quepierts\intensify\command\CommandGive.class
+net\quepierts\intensify\command\IntensifyCommand.class
+net\quepierts\intensify\utils\ItemUtils.class
+net\quepierts\intensify\command\CommandExecute.class
+net\quepierts\intensify\PluginConfiguration.class

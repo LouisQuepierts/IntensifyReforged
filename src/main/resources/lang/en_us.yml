@@ -1,0 +1,36 @@
+lore-WhenIntensifyItem: "&7When Intensify Item:"
+lore-AdditionalChance: "Success Chance"
+lore-BreakChance: "Break Chance"
+lore-DowngradeChance: "Downgrade Chance"
+
+lore-IntensificationTimes: "&aIntensification %level%"
+
+lore-PositiveColor: "&9"
+lore-NegativeColor: "&c"
+
+lore-tag: "&7Tagged: "
+
+lore-custom-IntensificationLevel-begin: "&b&l["
+lore-custom-IntensificationLevel-end: "]"
+lore-custom-IntensificationLevel-true: "◆"
+lore-custom-IntensificationLevel-false: "◇"
+
+message-IntensifySucceed: "&aYour tool already intensified to level %level%!!"
+message-IntensifyFailed: "&cOops, your failed to intensify your item...."
+message-IntensifyDowngraded: "&cOh no, your item has been downgraded to level %level%..."
+message-IntensifyBroken: "&cA say news, your have to say goodbye to your item..."
+
+message-InvalidAction: "&cYou can't use the intensifier to do this!!"
+message-Beacon: "Huh? You want to intensify your beacon? Maybe I will consider to due will that..."
+
+broadcast-IntensifySucceedCongratulate: "&aCongratulations to %player% who intensified the item to level %level%!!"
+broadcast-IntensifyBroken: "&cR.I.P, %player%'s item, it will be happy in the haven of item."
+
+command-PlayerAbsent: "&c%player% does not exist or online."
+command-IllegalType: "&c%type% is not an avaliable type."
+command-IngameOnly: "&cYou can't execute this command on console!"
+command-MaxIntensificationTimes: "&cYou can't reinforce this item!"
+
+command-usage-give: "&a/intensify give <Player> <Type> [Amount] | Give somebody specific type and amount intensifier."
+command-usage-execute: "&a/intensify execute <chance> <break_chance> <downgrade_chance> | Intensify the item one your hand."
+command-usage-reload: "&a/intensify reload | Reload plugin configuration"
